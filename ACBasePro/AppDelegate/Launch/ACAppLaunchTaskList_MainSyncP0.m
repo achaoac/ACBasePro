@@ -17,7 +17,7 @@
 
 - (void)configRouter {
     [ACRouter configRouter:@"acbase-router" classMaps:@{
-        @"testVC" : @"YYBTestViewController",
+        @"webVC" : @"ACWebViewController", // webVC
     }];
 }
 

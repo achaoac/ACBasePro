@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 source 'https://github.com/achaoac/ACEasyKitSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'ACBasePro' do
   # Comment the next line if you don't want to use dynamic frameworks
