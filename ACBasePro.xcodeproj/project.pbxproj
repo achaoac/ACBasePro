@@ -77,7 +77,13 @@
 		35D094592A49C25E0087507E /* ACWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D094552A49C25E0087507E /* ACWebView.m */; };
 		35D0945F2A49C4510087507E /* ACLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0945C2A49C4510087507E /* ACLoadingView.m */; };
 		35D094602A49C4510087507E /* UIView+ACLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0945E2A49C4510087507E /* UIView+ACLoading.m */; };
-		35D094632A49C58A0087507E /* img_advice_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35D094622A49C58A0087507E /* img_advice_normal.gif */; };
+		35D094632A49C58A0087507E /* ac_img_advice_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35D094622A49C58A0087507E /* ac_img_advice_normal.gif */; };
+		35D094672A49CB9F0087507E /* ACDefaultDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D094652A49CB9F0087507E /* ACDefaultDataMgr.m */; };
+		35D0946C2A49CD6E0087507E /* ACDevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0946B2A49CD6E0087507E /* ACDevViewController.m */; };
+		35D094742A4A869B0087507E /* ACPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0946E2A4A869B0087507E /* ACPrivacyViewController.m */; };
+		35D094752A4A869B0087507E /* ACSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D0946F2A4A869B0087507E /* ACSettingTableViewCell.m */; };
+		35D094762A4A869B0087507E /* ACSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D094712A4A869B0087507E /* ACSettingsViewController.m */; };
+		35D094792A4A98AE0087507E /* ACBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D094782A4A98AE0087507E /* ACBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -246,7 +252,20 @@
 		35D0945C2A49C4510087507E /* ACLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACLoadingView.m; sourceTree = "<group>"; };
 		35D0945D2A49C4510087507E /* ACLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACLoadingView.h; sourceTree = "<group>"; };
 		35D0945E2A49C4510087507E /* UIView+ACLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ACLoading.m"; sourceTree = "<group>"; };
-		35D094622A49C58A0087507E /* img_advice_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img_advice_normal.gif; sourceTree = "<group>"; };
+		35D094622A49C58A0087507E /* ac_img_advice_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ac_img_advice_normal.gif; sourceTree = "<group>"; };
+		35D094652A49CB9F0087507E /* ACDefaultDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDefaultDataMgr.m; sourceTree = "<group>"; };
+		35D094662A49CB9F0087507E /* ACDefaultDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDefaultDataMgr.h; sourceTree = "<group>"; };
+		35D094682A49CBFA0087507E /* ACLocalKVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACLocalKVHeader.h; sourceTree = "<group>"; };
+		35D0946A2A49CD6E0087507E /* ACDevViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACDevViewController.h; sourceTree = "<group>"; };
+		35D0946B2A49CD6E0087507E /* ACDevViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDevViewController.m; sourceTree = "<group>"; };
+		35D0946E2A4A869B0087507E /* ACPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPrivacyViewController.m; sourceTree = "<group>"; };
+		35D0946F2A4A869B0087507E /* ACSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSettingTableViewCell.m; sourceTree = "<group>"; };
+		35D094702A4A869B0087507E /* ACPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPrivacyViewController.h; sourceTree = "<group>"; };
+		35D094712A4A869B0087507E /* ACSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSettingsViewController.m; sourceTree = "<group>"; };
+		35D094722A4A869B0087507E /* ACSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSettingsViewController.h; sourceTree = "<group>"; };
+		35D094732A4A869B0087507E /* ACSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSettingTableViewCell.h; sourceTree = "<group>"; };
+		35D094772A4A98AE0087507E /* ACBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACBaseTableViewCell.h; sourceTree = "<group>"; };
+		35D094782A4A98AE0087507E /* ACBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACBaseTableViewCell.m; sourceTree = "<group>"; };
 		5CD838F640D1E1E38603C42F /* Pods-ACBasePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBasePro.debug.xcconfig"; path = "Target Support Files/Pods-ACBasePro/Pods-ACBasePro.debug.xcconfig"; sourceTree = "<group>"; };
 		5FF5A202AF7AC3A64B4A2BA7 /* Pods-ACBasePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACBasePro.release.xcconfig"; path = "Target Support Files/Pods-ACBasePro/Pods-ACBasePro.release.xcconfig"; sourceTree = "<group>"; };
 		F36B154F3202232B858BD9DD /* Pods_ACBasePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACBasePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +304,7 @@
 		35D093042A49AD650087507E /* ACBasePro */ = {
 			isa = PBXGroup;
 			children = (
+				35D0946D2A4A86820087507E /* Settings */,
 				35D094522A49C2000087507E /* Conponents */,
 				35D0944D2A49C13C0087507E /* Logics */,
 				35D0931F2A49B1080087507E /* RootVC */,
@@ -309,6 +329,7 @@
 		35D0931F2A49B1080087507E /* RootVC */ = {
 			isa = PBXGroup;
 			children = (
+				35D094692A49CD4D0087507E /* TestVC */,
 				35D093332A49B4E90087507E /* BaseVC */,
 				35D093322A49B40C0087507E /* BaseView */,
 				35D093372A49B69F0087507E /* ACRootViewController.h */,
@@ -345,6 +366,7 @@
 			children = (
 				35D093242A49B28A0087507E /* ACBasePrefix.pch */,
 				35D093252A49B3490087507E /* ACBaseHeader.h */,
+				35D094682A49CBFA0087507E /* ACLocalKVHeader.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -356,6 +378,8 @@
 				35D0932C2A49B4090087507E /* ACBaseCollectionReusableView.m */,
 				35D0932D2A49B4090087507E /* ACBaseCollectionViewCell.h */,
 				35D093262A49B4090087507E /* ACBaseCollectionViewCell.m */,
+				35D094772A4A98AE0087507E /* ACBaseTableViewCell.h */,
+				35D094782A4A98AE0087507E /* ACBaseTableViewCell.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -609,6 +633,7 @@
 		35D0944D2A49C13C0087507E /* Logics */ = {
 			isa = PBXGroup;
 			children = (
+				35D094642A49CB9F0087507E /* DefaultData */,
 				35D0944E2A49C14A0087507E /* Network */,
 			);
 			path = Logics;
@@ -657,9 +682,40 @@
 		35D094612A49C57E0087507E /* Gif */ = {
 			isa = PBXGroup;
 			children = (
-				35D094622A49C58A0087507E /* img_advice_normal.gif */,
+				35D094622A49C58A0087507E /* ac_img_advice_normal.gif */,
 			);
 			path = Gif;
+			sourceTree = "<group>";
+		};
+		35D094642A49CB9F0087507E /* DefaultData */ = {
+			isa = PBXGroup;
+			children = (
+				35D094662A49CB9F0087507E /* ACDefaultDataMgr.h */,
+				35D094652A49CB9F0087507E /* ACDefaultDataMgr.m */,
+			);
+			path = DefaultData;
+			sourceTree = "<group>";
+		};
+		35D094692A49CD4D0087507E /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				35D0946A2A49CD6E0087507E /* ACDevViewController.h */,
+				35D0946B2A49CD6E0087507E /* ACDevViewController.m */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+		35D0946D2A4A86820087507E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				35D094722A4A869B0087507E /* ACSettingsViewController.h */,
+				35D094712A4A869B0087507E /* ACSettingsViewController.m */,
+				35D094702A4A869B0087507E /* ACPrivacyViewController.h */,
+				35D0946E2A4A869B0087507E /* ACPrivacyViewController.m */,
+				35D094732A4A869B0087507E /* ACSettingTableViewCell.h */,
+				35D0946F2A4A869B0087507E /* ACSettingTableViewCell.m */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		4E1676A248973A068F97DC09 /* Frameworks */ = {
@@ -744,7 +800,7 @@
 				35D093122A49AD660087507E /* Assets.xcassets in Resources */,
 				35D093DB2A49BC040087507E /* MJRefresh.bundle in Resources */,
 				35D093102A49AD650087507E /* Main.storyboard in Resources */,
-				35D094632A49C58A0087507E /* img_advice_normal.gif in Resources */,
+				35D094632A49C58A0087507E /* ac_img_advice_normal.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +855,7 @@
 			files = (
 				35D093512A49B7090087507E /* ACAppLaunchTaskList_SubAsyncP0.m in Sources */,
 				35D094492A49BC990087507E /* NSBundle+MJRefresh.m in Sources */,
+				35D094752A4A869B0087507E /* ACSettingTableViewCell.m in Sources */,
 				35D093ED2A49BC040087507E /* MJRefreshAutoFooter.m in Sources */,
 				35D093E62A49BC040087507E /* MJRefreshNormalTrailer.m in Sources */,
 				35D093552A49B7090087507E /* ACAppLaunchTaskList_MainAsyncP2.m in Sources */,
@@ -824,6 +881,8 @@
 				35D094602A49C4510087507E /* UIView+ACLoading.m in Sources */,
 				35D093EA2A49BC040087507E /* MJRefreshFooter.m in Sources */,
 				35D093E82A49BC040087507E /* MJRefreshStateHeader.m in Sources */,
+				35D094742A4A869B0087507E /* ACPrivacyViewController.m in Sources */,
+				35D0946C2A49CD6E0087507E /* ACDevViewController.m in Sources */,
 				35D0944C2A49BC990087507E /* UIScrollView+MJExtension.m in Sources */,
 				35D093E42A49BC040087507E /* MJRefreshAutoNormalFooter.m in Sources */,
 				35D093522A49B7090087507E /* ACAppLaunchTaskList_SubAsyncP1.m in Sources */,
@@ -840,6 +899,8 @@
 				35D093592A49B7090087507E /* ACAppLaunchTaskList_SubAsyncP2.m in Sources */,
 				35D093EF2A49BC040087507E /* MJRefreshTrailer.m in Sources */,
 				35D093072A49AD650087507E /* AppDelegate.m in Sources */,
+				35D094762A4A869B0087507E /* ACSettingsViewController.m in Sources */,
+				35D094672A49CB9F0087507E /* ACDefaultDataMgr.m in Sources */,
 				35D0935A2A49B7090087507E /* ACAppLaunchTaskList_MainAsyncP1.m in Sources */,
 				35D093E02A49BC040087507E /* MJRefreshBackStateFooter.m in Sources */,
 				35D093182A49AD660087507E /* main.m in Sources */,
@@ -859,6 +920,7 @@
 				35D094592A49C25E0087507E /* ACWebView.m in Sources */,
 				35D093EB2A49BC040087507E /* MJRefreshHeader.m in Sources */,
 				35D093E72A49BC040087507E /* MJRefreshNormalHeader.m in Sources */,
+				35D094792A4A98AE0087507E /* ACBaseTableViewCell.m in Sources */,
 				35D093E32A49BC040087507E /* MJRefreshAutoGifFooter.m in Sources */,
 				35D093EC2A49BC040087507E /* MJRefreshBackFooter.m in Sources */,
 				35D0930A2A49AD650087507E /* SceneDelegate.m in Sources */,
@@ -1010,6 +1072,7 @@
 				GCC_PREFIX_HEADER = ./ACBasePro/Macro/ACBasePrefix.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACBasePro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AC基建";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1021,7 +1084,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.achao.acbase.ACBasePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1042,6 +1105,7 @@
 				GCC_PREFIX_HEADER = ./ACBasePro/Macro/ACBasePrefix.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACBasePro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AC基建";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1053,7 +1117,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.achao.acbase.ACBasePro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

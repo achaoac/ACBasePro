@@ -19,7 +19,12 @@
     [super viewDidLoad];
     
     [self createNavigationbar:NO];
-    self.titleLab.text = @"AC Base Project";
+    [self createRightButtonWithImage:@"ac_icon_settings"];
+    self.titleLab.text = ac_appName();
+}
+
+- (void)rightBtnAction:(UIButton *)sender {
+    [ACRouter jump:[ACRouter routerUrl:@"settingsVC"]];
 }
 
 #pragma mark - private method

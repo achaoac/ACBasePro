@@ -42,7 +42,7 @@
         self.web = web;
         self.userContentController = userContentController;
         
-        self.loadingView = [ACUITools createImage:self frame:self.web.frame image:@"img_webview_loading"];
+        self.loadingView = [ACUITools createImage:self frame:self.web.frame image:@"ac_img_webview_loading"];
     }
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlStr]];
     [self.web loadRequest:request];

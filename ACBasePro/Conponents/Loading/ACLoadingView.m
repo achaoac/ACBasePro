@@ -13,8 +13,8 @@
 NSString *const ACLoadingDefaultLoadingText = @"加载中...";
 NSString *const ACLoadingErrorText = @"加载失败，请检查网络后重试~";
 NSString *const ACLoadingRetryText = @"点击重试";
-NSString *const ACLoadingGif = @"img_advice_normal";
-NSString *const ACLoadingError = @"loading_no_network";
+NSString *const ACLoadingGif = @"ac_img_advice_normal";
+NSString *const ACLoadingError = @"ac_loading_no_network";
 
 @interface ACLoadingView ()
 
@@ -160,7 +160,7 @@ NSString *const ACLoadingError = @"loading_no_network";
 -(UIButton *)backBtn{
     if (!_backBtn) {
         float y = NAVI_BAR_HEIGHT - 44;
-        _backBtn = [ACUITools createVariableButton:self frame:CGRectMake(0, y, 60, 44) title:nil image:[UIImage imageNamed:@"nav_ic_back_public"] titleRect:CGRectZero imageRect:CGRectMake(9, 9, 26, 26) font:nil titleColor:nil target:self selector:@selector(backButtonClickAction)];
+        _backBtn = [ACUITools createVariableButton:self frame:CGRectMake(0, y, 60, 44) title:nil image:[UIImage imageNamed:@"ac_nav_ic_back_public"] titleRect:CGRectZero imageRect:CGRectMake(9, 9, 26, 26) font:nil titleColor:nil target:self selector:@selector(backButtonClickAction)];
     }
     return _backBtn;
 }

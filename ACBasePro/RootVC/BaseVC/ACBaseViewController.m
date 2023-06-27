@@ -13,6 +13,12 @@
 
 @implementation ACBaseViewController
 
++ (id)openJumpUrl:(NSDictionary *)params extraParams:(NSDictionary *)extraParams {
+    UIViewController *vc = [[[self class] alloc] init];
+    [ACRouter pushVC:vc];
+    return nil;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 解决横屏 scrollView自动偏移的问题
@@ -33,10 +39,6 @@
 }
 
 #pragma mark - private method
-
-/*
- *创建导航条，默认创建出来
- */
 - (void)createNavigationbar:(BOOL)back {
     UIView *naviBarView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, NAVI_BAR_HEIGHT)];
 
@@ -65,16 +67,10 @@
     }
 }
 
-/*
- *创建返回按钮
- */
 - (void)createBackButton {
-    [ACUITools createVariableButton:self.naviBarView frame:CGRectMake(0, self.naviBarView.frame.size.height - 44, 60, 44) title:nil image:[UIImage imageNamed:@"btn_back.png"] titleRect:CGRectZero imageRect:CGRectMake(9, 9, 26, 26) font:nil titleColor:nil target:self selector:@selector(backAction:)];
+    [ACUITools createVariableButton:self.naviBarView frame:CGRectMake(0, self.naviBarView.frame.size.height - 44, 60, 44) title:nil image:[UIImage imageNamed:@"ac_btn_back.png"] titleRect:CGRectZero imageRect:CGRectMake(9, 9, 26, 26) font:nil titleColor:nil target:self selector:@selector(backAction:)];
 }
 
-/*
- *创建右边按钮
- */
 - (void)createRightButtonWithTitle:(NSString *)rightBtnTitle {
     UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [rightBtn setFrame:CGRectMake(self.naviBarView.frame.size.width - 60, self.naviBarView.frame.size.height - 44, 60, 44)];
@@ -87,23 +83,15 @@
     self.rightBtn = rightBtn;
 }
 
-/*
- *创建右边按钮
- */
 - (void)createRightButtonWithImage:(NSString *)rightBtnImage {
     self.rightBtn = [ACUITools createVariableButton:self.naviBarView frame:CGRectMake(self.naviBarView.frame.size.width - 60, self.naviBarView.frame.size.height - 44, 60, 44) title:nil image:[UIImage imageNamed:rightBtnImage] titleRect:CGRectZero imageRect:CGRectMake(9, 2, 40, 40) font:nil titleColor:nil target:self selector:@selector(rightBtnAction:)];
 }
 
-/*
- *右边按钮触发方法
- */
 - (void)rightBtnAction:(UIButton *_Nullable)sender {
 }
 
-/*
- *返回按钮触发方法
- */
 - (void)backAction:(UIButton *_Nullable)sender {
+    [ACRouter dismissVC:self];
 }
 
 // 支持旋转
